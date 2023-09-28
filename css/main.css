@@ -23,7 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background-color: #f7f7f7;
+  background: #f7f7f7;
   font-size: 1rem;
   line-height: 1.25;
 }
@@ -37,8 +37,81 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  width: 100%;
 }
 
 .container {
   margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 60px;
+  padding: 10px 0 10px;
+  font-weight: 400;
+  background-color: white;
+  margin: 0 -15px 0;
+}
+
+main,
+footer {
+  margin: 0 15px 0 15px;
+}
+
+main h3 {
+  padding: 25px 10px 50px 10px;
+  font-family: Heebo;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.title {
+  padding: 25px 10px 50px 10px;
+  font-family: DM Serif Display;
+  text-align: center;
+  font-size: 22px;
+}
+
+main p {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 10px;
+  margin: 0 10px 30px 10px;
+  line-height: 20px; /* 200% */
+}
+
+span {
+  color: #b3b3b3;
+}
+
+main .col-12,
+.col-lg-3 .col-lg-4 .col-lg-6 .col-md-4 {
+  background-color: white;
+  padding: 0%;
+}
+
+main .row {
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 0 -13px 0;
+}
+
+footer .col-12,
+.col-lg-3 .col-lg-4 .col-lg-6 .col-md-4 {
+  background-color: white;
+}
+
+footer p,
+h3 {
+  padding: 20px 20px 30px 20px;
 }
